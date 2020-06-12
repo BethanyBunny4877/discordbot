@@ -27,7 +27,7 @@ namespace ConsoleApp3
             await services.GetRequiredService<CommandHandlingService>().InitializeAsync(services);
             await services.GetRequiredService<ReactionHandlingModule>().InitializeAsync(services);
 
-            await _client.LoginAsync(TokenType.Bot, "NjcwMTkzOTgwMjkzNjQ0Mjk4.Xk0ZKQ.hssSpLCNRcPI-aj2cUV_bSgf0ak");
+            await _client.LoginAsync(TokenType.Bot, "");
             await _client.StartAsync();
             Console.WriteLine("###################################################################");
             Console.WriteLine("# 00         000000  00      00     0000     0000000   00000000   #");
